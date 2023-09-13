@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = '@faizmokh'
+description = "Programming rants and other stuffs"
+
+themesdir = "../../"
+theme = "writer"
+
+[Params]
+mainSections = ["posts"]
+description = "Programming rants and other stuffs"
+
+[menu]
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+weight = 1
+
+[[menu.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 2

@@ -1,0 +1,9 @@
+<nav class="">
+    <ul>
+    {{ range .Site.Menus.main }}
+        <li>
+            <a href="{{ .URL }}" title="{{ .Title }}" class="button button-border button-primary">{{ .Name }}</a>
+        </li>
+    {{ end }}
+    </ul>
+</nav>
